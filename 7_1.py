@@ -36,12 +36,8 @@ class CustomXGBRegressor(XGBRegressor):
         return {'requires_y': True}
 
 # Настройки API KuCoin
-KUCOIN_API_KEY = "6746d96b42e1fc00015d0e85"
-KUCOIN_API_SECRET = "17761434-576b-4c3c-85f4-e962d74e5970"
-KUCOIN_API_PASSPHRASE = "25041986"  # Исправлено: 'PASСПHRASE' -> 'PASSPHRASE'
 
 # Настройки API OpenAI
-openai.api_key = "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"
 
 # Инициализация клиента KuCoin
 exchange = ccxt.kucoin({
